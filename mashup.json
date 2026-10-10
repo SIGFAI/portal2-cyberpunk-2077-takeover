@@ -1,0 +1,563 @@
+{
+  "id": "sigf/portal2-cyberpunk-2077-takeover",
+  "version": "1.0.0",
+  "name": "Cyberpunk 2077 Takeover",
+  "tagline": "Bring Cyberpunk 2077 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "cyberpunk",
+      "role": "guest",
+      "label": "Cyberpunk 2077"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-cyberpunk-2077-takeover.zip",
+          "dst": "{game}/sigf_cyberpunk_2077_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/anim_wp/framework/backpanels_cheap.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/anim_wp/framework/backpanels_color01_nospec.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/anim_wp/framework/backpanels_nospec.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/anim_wp/framework/backpanels.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/anim_wp/framework/squarebeams_rusty_01.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/concrete/concrete_modular_floor001e.vmt",
+              "sha256": "3c7cd3500131c08098500e71a66939226c807d8f49066c56fa6a7937cc433511"
+            },
+            {
+              "path": "materials/concrete/concrete_modular_floor001f.vmt",
+              "sha256": "3c7cd3500131c08098500e71a66939226c807d8f49066c56fa6a7937cc433511"
+            },
+            {
+              "path": "materials/concrete/observationwall_001a.vmt",
+              "sha256": "443215275512c4d83f0808f9f60804c730b1c3ec2b12d15da1adc6614411e876"
+            },
+            {
+              "path": "materials/concrete/observationwall_001b.vmt",
+              "sha256": "443215275512c4d83f0808f9f60804c730b1c3ec2b12d15da1adc6614411e876"
+            },
+            {
+              "path": "materials/lights/light_panel_cool.vmt",
+              "sha256": "a51722298d4e702f0936d1a6f39d29c8920b5ec9d68ec4bf30346b5c483a9384"
+            },
+            {
+              "path": "materials/lights/light_panel_warm.vmt",
+              "sha256": "eeeee255839e71a908afddbab25c507de1bff5a98969b8ba897873834c168dd5"
+            },
+            {
+              "path": "materials/metal/black_ceiling_metal_001a.vmt",
+              "sha256": "3284b54a9c2357d146179f2334b19d046e387b08fd1fcbe26bf04145ab873a74"
+            },
+            {
+              "path": "materials/metal/black_floor_metal_001b.vmt",
+              "sha256": "64f1a21e567ea62160b7cee27d1f93fb4371460b31ca22a20530d121fd7115d5"
+            },
+            {
+              "path": "materials/metal/black_floor_metal_001d.vmt",
+              "sha256": "64f1a21e567ea62160b7cee27d1f93fb4371460b31ca22a20530d121fd7115d5"
+            },
+            {
+              "path": "materials/metal/black_floor_metal_bullseye_001.vmt",
+              "sha256": "64f1a21e567ea62160b7cee27d1f93fb4371460b31ca22a20530d121fd7115d5"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_002a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_002b.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_002c.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_002d.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_002e.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_004d.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005a_top.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005b_top.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005b.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005c_top.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005c.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005d_top.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005d.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/black_wall_metal_005e.vmt",
+              "sha256": "51073ac4d4ca2c0d9d417093d42e762392cecafb86cd46085a5014b10a958bd1"
+            },
+            {
+              "path": "materials/metal/blendblackfloormetal_dirt02.vmt",
+              "sha256": "64f1a21e567ea62160b7cee27d1f93fb4371460b31ca22a20530d121fd7115d5"
+            },
+            {
+              "path": "materials/metal/metalhull013a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/metalwall_bts_006a_cheap.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/metalwall_bts_006a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/metalwall060a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/metal/metalwall061f.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_blank.vmt",
+              "sha256": "194218b813fd1ba9230de15ecb3b24d624c297561433a8e7970e81c313f7e096"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_logo.vmt",
+              "sha256": "aa7180542144a2bbfc85ee60fdfa72809b3d24a819a5f1866eaa9454ae380e90"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_off.vmt",
+              "sha256": "d36b3955f836c562fb28443a6fb43b37a3f3abb22dc592df30f61d5f362ea221"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_screen_fast.vmt",
+              "sha256": "5718ad904df7e625f393577681a66d1cef84eb9557ec8f5f498c1248e6a95eca"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_screen_slow.vmt",
+              "sha256": "aecdf2371148e65069f6c53a0d3d23d2bc9ca08b3a39ee19076c83c3f261a7ce"
+            },
+            {
+              "path": "materials/models/props/lab_monitor/lab_monitor_screen.vmt",
+              "sha256": "91cfca02057c21cf7b10b0dcf8d3bf9d54dd3813f0c6af1dbc0f2b8903c14f5b"
+            },
+            {
+              "path": "materials/models/props_bts/cube_silhouette.vmt",
+              "sha256": "fe29429c6b8d8f5f1e34b08e04b52d6f0e518efab2b3482859f8ef696de1c25a"
+            },
+            {
+              "path": "materials/models/props_destruction/glass_192x128_b_normal.vmt",
+              "sha256": "6c8e4e35d5e149a0d3c805f0dfb55f59125f8f40f4e59dc93440587791ecaf25"
+            },
+            {
+              "path": "materials/models/props_destruction/glass_192x192_c_normal.vmt",
+              "sha256": "1aa8b4078493a39c8ef633195696d7c08ae1bc072b00a0b92cb56368aa71c34a"
+            },
+            {
+              "path": "materials/models/props_destruction/glass_192x224_d_normal.vmt",
+              "sha256": "642cb31b3ac6d8218fe407968eea00dc920709dd91898cc745850ca1b83ec07c"
+            },
+            {
+              "path": "materials/models/props_destruction/glass_192x96_d_normal.vmt",
+              "sha256": "0dfebed746b5e76bbe1591589b672ee1feb7d8de5496d5426337db62d88e9f53"
+            },
+            {
+              "path": "materials/models/props_destruction/glass_b1_normal.vmt",
+              "sha256": "a6e00671160695854846ce18a1ef54249c431231354af8d04edcfd9b34d41747"
+            },
+            {
+              "path": "materials/motel/elevator_carpet001.vmt",
+              "sha256": "3c7cd3500131c08098500e71a66939226c807d8f49066c56fa6a7937cc433511"
+            },
+            {
+              "path": "materials/nature/dirtfloor004c.vmt",
+              "sha256": "3c7cd3500131c08098500e71a66939226c807d8f49066c56fa6a7937cc433511"
+            },
+            {
+              "path": "materials/plastic/plasticwall004a_dirty.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/props/plasticwall003a.vmt",
+              "sha256": "3f1e179c0399e82ebff8184aecf02afccaa50c96b38f90b7ffefb58b7f81b3bd"
+            },
+            {
+              "path": "materials/sigf/ad0.vmt",
+              "sha256": "05d46b2f390a59d809ad73126b89775687f2ed888c6b5c038b9a0e192f962cfe"
+            },
+            {
+              "path": "materials/sigf/ad0.vtf",
+              "sha256": "d133e64aed1b1684d4a25e35e994cb1c82adb8a210cd3c3ec44229f33c9643c2"
+            },
+            {
+              "path": "materials/sigf/ad1.vmt",
+              "sha256": "b1835b6c8ed3632af19033e0043e8ab783d7d0a6fb05b064c7dd7f325ba02715"
+            },
+            {
+              "path": "materials/sigf/ad1.vtf",
+              "sha256": "88f187762dbf19eaad66fa6769e951ec3b48a4e52df21c7d3b8c9caee6ac7143"
+            },
+            {
+              "path": "materials/sigf/ad2.vmt",
+              "sha256": "41d764c2dcec663b1b149d7bb51c587d0ee863f462ed6153b82932f3a3a4842f"
+            },
+            {
+              "path": "materials/sigf/ad2.vtf",
+              "sha256": "a5bdc7d9079a3f1b0c4d5f3f6671477e76f8e3e184c959f5390bc66cc640650f"
+            },
+            {
+              "path": "materials/sigf/ad3.vmt",
+              "sha256": "a9f122fb393597ff645b5d9ad919fb63efefef329e4721655102e27145fffb98"
+            },
+            {
+              "path": "materials/sigf/ad3.vtf",
+              "sha256": "c499ee66d0dc3d9fe67b42dcb1aaac0a80f2f41af7139f1443592bb54d2949c4"
+            },
+            {
+              "path": "materials/sigf/ad4.vmt",
+              "sha256": "b65fbfa4a989aefe72aa60abb9d667a824c18b18abfa6ee66380d178babb89d8"
+            },
+            {
+              "path": "materials/sigf/ad4.vtf",
+              "sha256": "b7f7534e450edfd12f9742110e07901eef9756f29db6d370f69d58273b52b1b9"
+            },
+            {
+              "path": "materials/sigf/ad5.vmt",
+              "sha256": "282aa92b6bab08fbed65da62518e9905da13147dc2cae7c6443f93bd9619470e"
+            },
+            {
+              "path": "materials/sigf/ad5.vtf",
+              "sha256": "29f1d6ac478fc030f4b92eb9c5ddcd3901d061805d78ff2912489c29f5c94bff"
+            },
+            {
+              "path": "materials/sigf/cal.vmt",
+              "sha256": "820da90fac8cd4978985945ca3f7b34570914a9efc7b6fbb73c49f3809638e07"
+            },
+            {
+              "path": "materials/sigf/cal.vtf",
+              "sha256": "e2a04a7aa6ea866461c299d8cefb4d64b76e5b0f433f66830a8f20818da2edad"
+            },
+            {
+              "path": "materials/sigf/ceil.vtf",
+              "sha256": "e6d5a3f4b26cda2d4915b50928c9f8ee6331f07e959d63d6107a0c5d16907ec3"
+            },
+            {
+              "path": "materials/sigf/floor.vtf",
+              "sha256": "910b8861b216a7002a620befff5bf276c4bff6c1f70464e8658f813f48f2c95e"
+            },
+            {
+              "path": "materials/sigf/hud.vmt",
+              "sha256": "ab5bb301e0f85da6ca25621cd63ca70afa0949d8d8d0d1ef0dbcd11322674527"
+            },
+            {
+              "path": "materials/sigf/hud.vtf",
+              "sha256": "f6512cd4799fef5a2518de5a55164cede4039c46c43bb75be16ed19e3a75e263"
+            },
+            {
+              "path": "materials/sigf/hudsq.vmt",
+              "sha256": "231f7f880bbf0c79c23ffa259e40fff0a597205a3443dea9c65d2ca4335b510d"
+            },
+            {
+              "path": "materials/sigf/hudsq.vtf",
+              "sha256": "c91fe0f3c0156ca95860ee05be847d8f1a8a48bc5318e280feebba5f9dbb014e"
+            },
+            {
+              "path": "materials/sigf/sign_cw.vmt",
+              "sha256": "e2e02dc6da8cfa3215282c3d4d488f33d7b6482e2715426e39a834d42f46761b"
+            },
+            {
+              "path": "materials/sigf/sign_cw.vtf",
+              "sha256": "35dc5efa9fabbbfb59f410f225834857656cce2b7adeb010906b0b96131bbdca"
+            },
+            {
+              "path": "materials/sigf/sign_nc.vmt",
+              "sha256": "5ba249c5fd97e83cd6fa2a084f2f203e480cf7287491b1a8509416fab4559e42"
+            },
+            {
+              "path": "materials/sigf/sign_nc.vtf",
+              "sha256": "878c481e9044c8dd5ca331f1716320f16de17ac25ee5865ed8a8982b5482918a"
+            },
+            {
+              "path": "materials/sigf/sign_nd.vmt",
+              "sha256": "045ea76398ba51b2f7e6e21ac72bbb4cd3a0a6ae08598798ac0eb57a251451f4"
+            },
+            {
+              "path": "materials/sigf/sign_nd.vtf",
+              "sha256": "b1655a4e98c1e805ed7cd2bf5a59c8bceb2201f546d24da8f7df04e879a547fe"
+            },
+            {
+              "path": "materials/sigf/wall_a.vtf",
+              "sha256": "d0b87888901d2e802f808d0d21a0d03359d00c34f776f034b72f3990424784e9"
+            },
+            {
+              "path": "materials/sigf/wall_b.vtf",
+              "sha256": "03bc479ee2d4e89c91f2698aea4982c47db9205ce0067d226981d8eefb199c83"
+            },
+            {
+              "path": "materials/tile/observation_tileceiling001a.vmt",
+              "sha256": "3767a86f4f865ebbefb059b2d70ec214d433ca7e327ba3979248b10206d80275"
+            },
+            {
+              "path": "materials/tile/observation_tilefloor003a.vmt",
+              "sha256": "9335123b355039d830bfb09c4204309a7246e9f6035eb1caef11f31e9961ced9"
+            },
+            {
+              "path": "materials/tile/white_floor_tile004d.vmt",
+              "sha256": "0dd82ddd193ab321a12eebea6289ac32ced3466b884684f2c3741485ce7b0a1b"
+            },
+            {
+              "path": "materials/tile/white_wall_tile003a.vmt",
+              "sha256": "6a1ac57a406ed9df0512ac91c90dffb4112eebb22ca780ab5b20466c025b411f"
+            },
+            {
+              "path": "materials/tile/white_wall_tile003c.vmt",
+              "sha256": "6a1ac57a406ed9df0512ac91c90dffb4112eebb22ca780ab5b20466c025b411f"
+            },
+            {
+              "path": "materials/tile/white_wall_tile003f.vmt",
+              "sha256": "6a1ac57a406ed9df0512ac91c90dffb4112eebb22ca780ab5b20466c025b411f"
+            },
+            {
+              "path": "materials/tile/white_wall_tile004b.vmt",
+              "sha256": "2b05eaf8062ad796945e4a5fba397e2809340c5e1f337ceec64eb0a3ada80eaf"
+            },
+            {
+              "path": "materials/tile/white_wall_tile004c.vmt",
+              "sha256": "2b05eaf8062ad796945e4a5fba397e2809340c5e1f337ceec64eb0a3ada80eaf"
+            },
+            {
+              "path": "materials/tile/white_wall_tile004d.vmt",
+              "sha256": "2b05eaf8062ad796945e4a5fba397e2809340c5e1f337ceec64eb0a3ada80eaf"
+            },
+            {
+              "path": "pak01_000.vpk",
+              "sha256": "327239852566c162e64546ae33898dc5fdfc2d1e70e3c7737ffe64fcd679ee85"
+            },
+            {
+              "path": "pak01_dir.vpk",
+              "sha256": "f846bc3fd54ba1460a08b3ac5d390f855886aec55285d58a7b7faecdc3a8ce36"
+            },
+            {
+              "path": "resource/sigf_english.txt",
+              "sha256": "84ad0a8e2e8be542b71d8eae01e804bde165c0ce0972fd9d4d517adf59cba53a"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "53157292ec0f23022373e7219de3e35c6589a033823cdd985854a3f62f8aa687"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "3cd8ca438cf8b83b92471a351998bbd4bf3a285c7a5f1bd1cf58f9bfef758f18"
+            },
+            {
+              "path": "sound/sigf/boss.wav",
+              "sha256": "b370ad4a9fad5bd2c50d8715d5cc5d45a6f4064b62b9f6dd7de54fa39433b826"
+            },
+            {
+              "path": "sound/sigf/eddies.wav",
+              "sha256": "3ecc61e74c4bc55136082134b0217b0a1a7424533607efbd32b5ec6df510fe61"
+            },
+            {
+              "path": "sound/sigf/hack.wav",
+              "sha256": "a1e082c27442c78054221a8a6d0c16c89687e00b6359c0eed7398b99d297dc91"
+            },
+            {
+              "path": "sound/sigf/honk.wav",
+              "sha256": "32ba3299467ce4caa70b4a916de1715dccfe8b5ad68af9762d6509df9f954606"
+            },
+            {
+              "path": "sound/sigf/j1.wav",
+              "sha256": "a1c501debd7a5d60d6c26b593b2c98c35327469a7d4729f04979ce2df0c9f564"
+            },
+            {
+              "path": "sound/sigf/j2.wav",
+              "sha256": "74f25770979bbd66272451ff9059e70819e1516e06e35b4b108dd752b8928785"
+            },
+            {
+              "path": "sound/sigf/j3.wav",
+              "sha256": "435b5ae6eebd5490c3d00383f7105a334e92dd95fba1418a2ef873ea445d6935"
+            },
+            {
+              "path": "sound/sigf/j4.wav",
+              "sha256": "4ee32112e41874f0c527358ce556c10299e3b800d1ac20cb3f2a5536804e1de9"
+            },
+            {
+              "path": "sound/sigf/j5.wav",
+              "sha256": "944b817716f615dea5a5ad2560de91076844936d03b5b2e1a294eb43ab8a49f6"
+            },
+            {
+              "path": "sound/sigf/sande.wav",
+              "sha256": "606a82dd0dafa910d28deddf5ca704b5638042f4d8034f5e38e6b0c9d1b7764d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-cyberpunk-2077-takeover/releases/download/v1.0.0/portal2-cyberpunk-2077-takeover.zip",
+          "sha256": "b32936524b0fa74b51d4de1d1f01012016d49f9f403e68968b5b1ce7fc2c5f1e",
+          "size": 38565961
+        },
+        {
+          "src": "portal2-cyberpunk-2077-takeover-game-kit.zip",
+          "dst": "{game}/sigf_cyberpunk_2077_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "resource/sigf_english.txt",
+              "sha256": "84ad0a8e2e8be542b71d8eae01e804bde165c0ce0972fd9d4d517adf59cba53a"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "26a702a14d3522aff05aa6eec45a16212b4ba3c8889a582a0cbc8bc65d6ba582"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "d15cbbfb66af458ef4629b69cad8f791ad7602dd550677e9981144e5e3e16078"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "afbbe0227ea3fa26f6a442522212dfbfff9c8f262054c01f8cab00756d63381d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-cyberpunk-2077-takeover/releases/download/v1.0.0/portal2-cyberpunk-2077-takeover-game-kit.zip",
+          "sha256": "6a964663df1ec78a75eb722854caeb9338e36a4ba3c8b2083881b6f19e389ac5",
+          "size": 50832
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_cyberpunk_2077_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-cyberpunk-2077-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-cyberpunk-2077-takeover/releases/download/v1.0.0/portal2-cyberpunk-2077-takeover.zip",
+      "sha256": "b32936524b0fa74b51d4de1d1f01012016d49f9f403e68968b5b1ce7fc2c5f1e",
+      "size": 38565961
+    },
+    {
+      "name": "portal2-cyberpunk-2077-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-cyberpunk-2077-takeover/releases/download/v1.0.0/portal2-cyberpunk-2077-takeover-game-kit.zip",
+      "sha256": "6a964663df1ec78a75eb722854caeb9338e36a4ba3c8b2083881b6f19e389ac5",
+      "size": 50832
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-cyberpunk-2077-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-10-eef27bd9.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-10T17:22:39.286Z"
+}
