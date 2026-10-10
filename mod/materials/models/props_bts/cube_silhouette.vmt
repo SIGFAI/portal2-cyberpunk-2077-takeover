@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+$basetexture "sigf/ad0"
+$additive 1
+$nocull 1
+}

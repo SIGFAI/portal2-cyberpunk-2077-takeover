@@ -1,0 +1,12 @@
+UnlitGeneric
+
+{
+
+$basetexture "Lights/White004"
+
+$surfaceprop glass
+
+$nodecal 1
+
+$color "[0.1 0.9 1.0]"
+}

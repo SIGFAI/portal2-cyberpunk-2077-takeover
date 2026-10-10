@@ -1,0 +1,1 @@
+Copy the mod folder's contents (scripts, materials, sound, resource and the pak01 files) into a new folder named sigf inside your Portal 2 folder, then start Portal 2 with the launch options -game sigf +sv_cheats 1 +map sp_a2_catapult_intro.

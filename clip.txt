@@ -1,0 +1,7 @@
+Clip moments (tick only if seen in the preview):
+[x] 1. The test chamber is Night City: neon wall textures, glowing billboards, purple fog, HUD, Johnny core says "Wake up, Samurai".
+[x] 2. QUICKHACK: a turret glitches white and cyan, overheats and explodes, "+250 E$ GANGER FLATLINED".
+[x] 3. A yellow Delamain cab cube falls into the orange floor portal and comes out of the blue one, "+500 E$ CAB DELIVERED".
+[x] 4. The player walks into the portal, SANDEVISTAN ENGAGED slows time.
+[x] 5. The giant red CYBERPSYCHO turret is hacked (health bar drains) and explodes, "+1000 E$".
+Moment 4 (portal trip slow-motion) shows as SANDEVISTAN ENGAGED in the preview; moment 3 the cab goes through the portal pair; boss hack seen with its health bar.
